@@ -1,0 +1,9 @@
+#cloud-config
+# Optional: point custom_data_path at this file in a tfvars to apply it at first boot.
+package_update: true
+package_upgrade: true
+packages:
+  - unattended-upgrades
+  - fail2ban
+runcmd:
+  - systemctl enable --now fail2ban

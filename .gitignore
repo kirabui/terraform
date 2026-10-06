@@ -1,0 +1,16 @@
+# Local .terraform directories and state
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Local-only variable overrides (may contain secrets)
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keep the lock file committed: .terraform.lock.hcl
