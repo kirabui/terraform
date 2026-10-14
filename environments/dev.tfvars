@@ -5,11 +5,11 @@ location    = "australiaeast"
 vnet_address_space      = ["10.10.0.0/16"]
 subnet_address_prefixes = ["10.10.1.0/24"]
 
-# Replace with your own public IP, e.g. "203.0.113.10/32"
-allowed_ssh_cidrs = ["203.0.113.10/32"]
+# Replace with your own public IP, e.g. "59.102.47.10/32"
+allowed_ssh_cidrs = ["59.102.47.10/32"]
 create_public_ip  = true
 
-vm_size = "Standard_B2s"
+vm_size = "Standard_D2als_v6"
 zone    = null
 
 os_disk = {
