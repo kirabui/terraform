@@ -9,7 +9,7 @@ subnet_address_prefixes = ["10.20.1.0/24"]
 allowed_ssh_cidrs = []
 create_public_ip  = false
 
-vm_size = "Standard_D2s_v5"
+vm_size = "Standard_D2als_v6"
 zone    = "1"
 
 os_disk = {

@@ -5,7 +5,7 @@ set -euo pipefail
 
 LOCATION="${LOCATION:-australiaeast}"
 RG="${RG:-rg-tfstate-aue}"
-SA="${SA:-sttfstateaue001}"   # must be globally unique, 3-24 lowercase alphanumerics
+SA="${SA:-sttfstateaue001krb}"   # must be globally unique, 3-24 lowercase alphanumerics
 CONTAINER="${CONTAINER:-tfstate}"
 
 az group create --name "$RG" --location "$LOCATION" --output none
